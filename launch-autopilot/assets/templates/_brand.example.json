@@ -1,0 +1,9 @@
+{
+  "name": "Acme Notes",
+  "url": "acmenotes.app",
+  "bg": "#0f1115", "fg": "#f5f5f0", "muted": "#9aa0a6", "accent": "#ff6a3d", "accent2": "#3dd6ff",
+  "font_head": "Space Grotesk", "font_head_q": "Space+Grotesk",
+  "font_body": "Inter", "font_body_q": "Inter",
+  "logo": "",
+  "_note": "Colors/fonts come from the product's CSS or design tokens. logo = path or data: URI, \"\" hides it. *_q = Google Fonts query form (spaces -> +)."
+}

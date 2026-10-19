@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="size" content="1080x1350"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family={{font_head_q}}:wght@600;800&family={{font_body_q}}:wght@400;600&display=swap" rel="stylesheet"><style>:root{--bg:{{bg}};--fg:{{fg}};--muted:{{muted}};--a:{{accent}};--a2:{{accent2}}}
+*{box-sizing:border-box;margin:0}html,body{background:var(--bg);color:var(--fg);overflow:hidden}
+body{font-family:"{{font_body}}",system-ui,sans-serif}h1,h2,.head{font-family:"{{font_head}}","{{font_body}}",system-ui,sans-serif;letter-spacing:-.02em}
+img[src=""]{display:none}.brand{display:flex;align-items:center;gap:16px;font-weight:600;color:var(--muted)}.brand{font-size:30px}.brand img{height:44px}
+.c{width:1080px;height:1350px;padding:96px 88px;display:flex;flex-direction:column;gap:36px}
+.n{font:800 160px/1 "{{font_head}}",sans-serif;color:var(--a);opacity:.9}
+h2{font-size:80px;line-height:1.05;font-weight:800}
+p{font-size:40px;line-height:1.4;color:var(--muted)}
+.shot{flex:1;min-height:0;width:100%;object-fit:contain;border-radius:24px}
+.foot{margin-top:auto;display:flex;justify-content:space-between;font-size:28px}
+.bar{height:8px;border-radius:4px;background:#ffffff1a;position:relative}.bar i{position:absolute;inset:0 auto 0 0;width:calc(100% * {{n}} / {{total}});background:var(--a);border-radius:4px}
+</style></head><body><div class="c">
+<div class="n">{{n}}</div><h2>{{headline}}</h2><p>{{body}}</p><img class="shot" src="{{image}}" alt="{{alt}}">
+<div class="bar"><i></i></div><div class="foot brand"><span><img src="{{logo}}" alt=""> {{name}}</span><span>{{n}}/{{total}} &nbsp;→</span></div>
+</div></body></html>

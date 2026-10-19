@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="size" content="1123x1587"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family={{font_head_q}}:wght@600;800&family={{font_body_q}}:wght@400;600&display=swap" rel="stylesheet"><style>:root{--bg:{{bg}};--fg:{{fg}};--muted:{{muted}};--a:{{accent}};--a2:{{accent2}}}
+*{box-sizing:border-box;margin:0}html,body{background:var(--bg);color:var(--fg);overflow:hidden}
+body{font-family:"{{font_body}}",system-ui,sans-serif}h1,h2,.head{font-family:"{{font_head}}","{{font_body}}",system-ui,sans-serif;letter-spacing:-.02em}
+img[src=""]{display:none}.brand{display:flex;align-items:center;gap:16px;font-weight:600;color:var(--muted)}.brand{font-size:30px}.brand img{height:44px}
+@page{size:297mm 420mm;margin:0}
+/* A3 portrait; 15mm safe margin so home printers don't clip. Mono variant: set bg #fff, fg #000, accent #000. */
+.poster{width:297mm;height:420mm;padding:15mm;display:flex;flex-direction:column;gap:9mm}
+.brand{font-size:8mm}.brand img{height:12mm}
+.content{margin:auto 0;display:flex;flex-direction:column;gap:9mm}
+.eyebrow{font-size:7mm;font-weight:600;color:var(--a);letter-spacing:.14em;text-transform:uppercase}
+h1{font-size:26mm;line-height:.98;font-weight:800}
+p{font-size:9mm;line-height:1.3;color:var(--muted)}
+ul{list-style:none;padding:0;display:grid;gap:4mm;font-size:8mm}li:before{content:"■ ";color:var(--a)}
+.cta{display:flex;align-items:center;gap:10mm;border:1mm solid var(--a);border-radius:6mm;padding:8mm}
+.cta svg{width:55mm;height:55mm;background:#fff;border-radius:3mm}.cta b{display:block;font-size:12mm}.cta span{font-size:7mm;color:var(--muted)}
+</style></head><body><div class="poster">
+<div class="brand"><img src="{{logo}}" alt=""> {{name}}</div>
+<div class="content"><div class="eyebrow">{{eyebrow}}</div><h1>{{headline}}</h1><p>{{sub}}</p>
+<ul><li>{{point1}}</li><li>{{point2}}</li><li>{{point3}}</li></ul></div>
+<div class="cta">{{qr}}<div><b>{{cta}}</b><span>{{url}}</span></div></div>
+</div></body></html>

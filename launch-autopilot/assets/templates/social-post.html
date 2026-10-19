@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="size" content="1080x1350"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family={{font_head_q}}:wght@600;800&family={{font_body_q}}:wght@400;600&display=swap" rel="stylesheet"><style>:root{--bg:{{bg}};--fg:{{fg}};--muted:{{muted}};--a:{{accent}};--a2:{{accent2}}}
+*{box-sizing:border-box;margin:0}html,body{background:var(--bg);color:var(--fg);overflow:hidden}
+body{font-family:"{{font_body}}",system-ui,sans-serif}h1,h2,.head{font-family:"{{font_head}}","{{font_body}}",system-ui,sans-serif;letter-spacing:-.02em}
+img[src=""]{display:none}.brand{display:flex;align-items:center;gap:16px;font-weight:600;color:var(--muted)}.brand{font-size:30px}.brand img{height:44px}
+.c{width:1080px;height:1350px;padding:88px;display:flex;flex-direction:column;gap:40px;position:relative}
+.c:before{content:"";position:absolute;right:-180px;top:-180px;width:560px;height:560px;border-radius:50%;background:radial-gradient(var(--a),transparent 70%);opacity:.35}
+.eyebrow{font-weight:600;font-size:30px;color:var(--a);text-transform:uppercase;letter-spacing:.12em}
+h1{font-size:96px;line-height:1.02;font-weight:800;max-width:900px}
+p{font-size:38px;line-height:1.35;color:var(--muted);max-width:860px}
+.shot{flex:1;min-height:0;object-fit:cover;object-position:top;width:100%;border-radius:28px;border:2px solid #ffffff22;box-shadow:0 30px 80px #0008}
+.foot{margin-top:auto;display:flex;justify-content:space-between}
+</style></head><body><div class="c">
+<div class="eyebrow">{{eyebrow}}</div><h1>{{headline}}</h1><p>{{sub}}</p>
+<img class="shot" src="{{image}}" alt="{{alt}}">
+<div class="foot brand"><span><img src="{{logo}}" alt=""> {{name}}</span><span>{{url}}</span></div>
+</div></body></html>
